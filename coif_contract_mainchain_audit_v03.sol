@@ -255,6 +255,7 @@ contract CommunityInvestmentFundContract is ERC20, Ownable {
         require(_newAddress != address(uniswapV2Router), "Error: The router already has that address");
         emit UpdateUniswapV2Router(_newAddress, address(uniswapV2Router));
         uniswapV2Router = IUniswapV2Router02(_newAddress);
+        excludeFromDividends(_newAddress,true);
     }
 
     function excludeFromFees(address _account, bool _excluded) public onlyOwner {
