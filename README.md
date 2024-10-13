@@ -8,7 +8,7 @@ coif_contract_blockchain_v05.sol
 
 https://www.cyberscope.io/audits/coif
 
-3) The latest version of MEMECOIF contract:
+2) The latest version of MEMECOIF contract:
 memecoif_contract_v01.sol
 
 The main difference between COIF and MEMECOIF is that MEMECOIF includes initial limitations on transactions, which cannot be reactivated once they are deactivated.
