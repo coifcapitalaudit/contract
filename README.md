@@ -5,9 +5,10 @@ Once we have contacted you as an auditor, you will be given access to this priva
 1) The latest version of COIF contract:
 https://bscscan.com/address/0xb2a575d2c78c3ca53ab43e0cab5340f1dcf5b7f1#code
 coif_contract_blockchain_v05.sol
+
 https://www.cyberscope.io/audits/coif
 
-2) The latest version of MEMECOIF contract:
+3) The latest version of MEMECOIF contract:
 memecoif_contract_v01.sol
 
 The main difference between COIF and MEMECOIF is that MEMECOIF includes initial limitations on transactions, which cannot be reactivated once they are deactivated.
